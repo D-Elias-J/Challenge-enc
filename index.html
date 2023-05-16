@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador Challenge ONE de David E</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="styleSheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            
+            <img src="imagenes/logo D.jpg">
+            <p>Encriptador</p>
+        </header>
+        <main>
+            <textarea class="cuadrotexto" id="txtArea1" onkeyup="lowercase()" cols="25" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea class="mensaje1" id="txtArea2" cols="25" rows="10" style="display:none" ></textarea>
+            <textarea class="mensaje2" id="txtArea3" cols="25" rows="10"  ></textarea>
+            <div class="botones">
+                
+                <button onclick="encriptar()" class="bEnc">Encriptar</button>
+                <button onclick="desencriptar()" class="bDes">Desencriptar</button>
+            </div>
+            <div class="botones">
+                <button class="copiar" style="display:none" id="copiarbtn" onclick="copiartext()">Copiar</button>
+            </div>
+            <div>"Solo mayusculas sin caracteres especiales"</div>
+        </main>
+        <footer>
+            <img src="imagenes/logo D.jpg">
+            <p class="copyright">&copy David Elias Juarez</p>
+        </footer>
+    </body>
+</html>
+<script src="myscripts.js"></script>

@@ -1,0 +1,122 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header img{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+    display: inline;
+
+}
+
+header p{
+
+    display: inline;
+}
+
+
+body{
+    background: #f3f5f6;
+}
+
+
+.cuadrotexto{
+    color: darkblue;
+    font-size: 32px;
+
+    margin: 0 0 100px;
+    padding: 10px 25px;
+    width: 30%;
+    border: none;
+    background-color: #f3f5f6;
+}
+::placeholder{ color:darkblue}
+    .cuadrotexto:focus{
+        outline: none;
+    }
+
+.mensaje1{
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: darkblue;
+    margin: 0 0 100px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.mensaje2{
+    background: white;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: darkblue;
+    margin: 0 0 100px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.bEnc{
+
+    width: 10%;
+    padding: 24px;
+    font-size: 18px;
+    color: white;
+    background: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.bDes{
+
+    width: 10%;
+    padding: 24px;
+    font-size: 18px;
+    color: darkblue;
+    background: #D8DFE8;
+    border: 1px solid darkblue;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar{
+    width: 10%;
+    padding: 12px;
+    font-size: 24px;
+    color: darkblue;
+    background: #D8DFE8;
+    border: 1px solid darkblue;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    margin-top: -320px;
+    margin-left: 650px;
+ 
+}
+
+footer img{
+    width: 2%;
+    display: inline;
+}
+footer p{
+
+    display: inline;
+}
